@@ -7,10 +7,35 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+bower_components
+jspm_packages/
 dist
 dist-ssr
-*.local
+build/Release
+web_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional npm/yarn/pnpm cache directories
+.npm
+.pnpm-debug.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.yarn-integrity
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +47,76 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# TypeScript cache
+*.tsbuildinfo
+
+# ESLint/Stylelint cache
+.eslintcache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# NYC test coverage
+.nyc_output
+
+# Coverage
+coverage
+*.lcov
+
+# Parcel
+.cache
+.parcel-cache
+
+# Next.js
+.next
+out
+
+# Nuxt.js
+.nuxt
+dist
+
+# Gatsby
+.cache/
+# public (uncomment if using Gatsby and not Next.js)
+
+# VuePress
+.vuepress/dist
+.temp
+.cache
+
+# VitePress
+**/.vitepress/dist
+**/.vitepress/cache
+
+# Docusaurus
+.docusaurus
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# DynamoDB
+.dynamodb/
+
+# TernJS
+.tern-port
+
+# VSCode test
+.vscode-test
+
+# REPL history
+.node_repl_history
+
+# dotenv files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
